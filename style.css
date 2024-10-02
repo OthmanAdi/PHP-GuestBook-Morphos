@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+.formular-container, .eintraege-container {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.gaestebuch-formular {
+    display: flex;
+    flex-direction: column;
+}
+
+.gaestebuch-formular label {
+    margin-top: 10px;
+}
+
+.gaestebuch-formular input,
+.gaestebuch-formular textarea,
+.gaestebuch-formular select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.gaestebuch-formular button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.gaestebuch-formular button:hover {
+    background-color: #45a049;
+}
+
+.eintraege {
+    list-style-type: none;
+    padding: 0;
+}
+
+.eintrag {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.eintrag .datum {
+    color: #777;
+    font-size: 0.8em;
+}
+
+.eintrag .inhalt {
+    display: block;
+    margin-top: 5px;
+}
+
+.stimmung-fröhlich { border-left: 5px solid #FFD700; }
+.stimmung-neutral { border-left: 5px solid #A9A9A9; }
+.stimmung-nachdenklich { border-left: 5px solid #4682B4; }
+.stimmung-aufgeregt { border-left: 5px solid #FF69B4; }
+
+.erfolg {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.fehler {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 5px;
+}
